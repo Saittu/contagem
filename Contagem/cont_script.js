@@ -3,11 +3,6 @@ function cont(){
     let fim = document.getElementById('txtf')
     let passos = document.getElementById('txtp')
     let res = document.getElementById('resposta')
-    let caixa = document.querySelector(".minhaCaixa");
-
-        caixa.addEventListener("click", function(){
-            caixa.classList.toggle("comSombra")
-        });
     if (inicio.value.length == 0 || fim.value.length == 0 || passos.value.length == 0){
         res.innerHTML = 'Não é possivel contar!'
     } else {
