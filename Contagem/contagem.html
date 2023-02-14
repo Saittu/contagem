@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sistema de contagem</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header>
+        <h1>Contagem</h1>
+    </header>
+    <section>
+        <div id="dados">
+            <p>Início: <input type="number" name="txti" id="txti" onclick="alterarBorda(this)"></p>
+            <p>Fim: <input type="number" name="txtf" id="txtf" onclick="alterarBorda(this)"></p>
+            <p>Passos: <input type="number" name="txtp" id="txtp" onclick="alterarBorda(this)"></p>
+        <div>
+            <p><input type="button" id="meuBotao" value="Calcular" onclick="cont()"></p>
+        </div>
+        </div>
+        <div id="resposta">
+            Fazendo a contagem...
+        </div>
+    </section>
+    <footer>
+        <p>&copy; JeanPRG</p>
+    </footer>
+    <script src="cont_script.js"></script>
+</body>
+</html>
